@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-док-заявка-e",
+  "editForm": "i-i-s-kursovaya-gladkov-док-заявка-e",
+  "external": false,
+  "caption": "Док заявка",
+  "name": "IISKursovaya_GladkovДокЗаявкаL",
+  "className": "ДокЗаявкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-док-заявка",
+      "modelProjection": "ДокЗаявкаL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "С п роборуд",
+  "name": "IISKursovaya_GladkovСПРоборудE",
+  "className": "СПРоборудE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-роборуд",
+      "modelProjection": "СПРоборудE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-с-п-р-склад-e",
+  "editForm": "i-i-s-kursovaya-gladkov-с-п-р-склад-e",
+  "external": false,
+  "caption": "С п р склад",
+  "name": "IISKursovaya_GladkovСПРСкладL",
+  "className": "СПРСкладL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-р-склад",
+      "modelProjection": "СПРСкладL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Состояние",
+  "name": "IISKursovaya_GladkovСостояниеE",
+  "className": "СостояниеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-состояние",
+      "modelProjection": "СостояниеE"
+    }
+  ]
+}

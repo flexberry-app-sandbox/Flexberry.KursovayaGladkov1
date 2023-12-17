@@ -1,0 +1,30 @@
+﻿{
+  "name": "IISKursovaya_GladkovСостояние",
+  "modelName": "i-i-s-kursovaya-gladkov-состояние",
+  "className": "Состояние",
+  "nameSpace": "IIS.Kursovaya_Gladkov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СостояниеE",
+      "modelName": "i-i-s-kursovaya-gladkov-состояние",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СостояниеL",
+      "modelName": "i-i-s-kursovaya-gladkov-состояние",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

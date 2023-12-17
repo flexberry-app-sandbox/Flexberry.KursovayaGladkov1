@@ -1,0 +1,149 @@
+﻿{
+  "name": "IISKursovaya_GladkovДокЗаявка",
+  "modelName": "i-i-s-kursovaya-gladkov-док-заявка",
+  "className": "ДокЗаявка",
+  "nameSpace": "IIS.Kursovaya_Gladkov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаЗаявки",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЗаявки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сПРКлиент",
+      "relatedTo": "i-i-s-kursovaya-gladkov-с-п-р-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧзаявка",
+      "relatedTo": "i-i-s-kursovaya-gladkov-т-чзаявка",
+      "inverse": "докЗаявка"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДокЗаявкаE",
+      "modelName": "i-i-s-kursovaya-gladkov-док-заявка",
+      "attrs": [
+        {
+          "name": "номерЗаявки",
+          "caption": "Номер заявки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаявки",
+          "caption": "Дата заявки",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СПРКлиент",
+          "belongsTo": [],
+          "hidden": true,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "сПРКлиент",
+          "relatedTo": "i-i-s-kursovaya-gladkov-с-п-р-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧзаявкаE",
+          "caption": "Т чзаявка",
+          "name": "тЧзаявка",
+          "relatedTo": "i-i-s-kursovaya-gladkov-т-чзаявка",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ДокЗаявкаL",
+      "modelName": "i-i-s-kursovaya-gladkov-док-заявка",
+      "attrs": [
+        {
+          "name": "номерЗаявки",
+          "caption": "Номер заявки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаявки",
+          "caption": "Дата заявки",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СПРКлиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Клиент",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Клиент",
+          "name": "сПРКлиент",
+          "relatedTo": "i-i-s-kursovaya-gladkov-с-п-р-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧзаявкаE",
+          "caption": "Детали заявки",
+          "name": "тЧзаявка",
+          "relatedTo": "i-i-s-kursovaya-gladkov-т-чзаявка",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

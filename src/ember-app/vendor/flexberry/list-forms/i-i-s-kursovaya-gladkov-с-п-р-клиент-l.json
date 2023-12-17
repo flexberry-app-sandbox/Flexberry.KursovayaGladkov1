@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-с-п-р-клиент-e",
+  "editForm": "i-i-s-kursovaya-gladkov-с-п-р-клиент-e",
+  "external": false,
+  "caption": "С п р клиент",
+  "name": "IISKursovaya_GladkovСПРКлиентL",
+  "className": "СПРКлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-р-клиент",
+      "modelProjection": "СПРКлиентL"
+    }
+  ]
+}

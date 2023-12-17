@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Док чертеж",
+  "name": "IISKursovaya_GladkovДокЧертежE",
+  "className": "ДокЧертежE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-док-чертеж",
+      "modelProjection": "ДокЧертежE"
+    }
+  ]
+}

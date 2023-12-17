@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СПРСклад",
+      "projection": "СПРСкладL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "C п р материалы",
+  "name": "IISKursovaya_GladkovCПРМатериалыE",
+  "className": "CПРМатериалыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-c-п-р-материалы",
+      "modelProjection": "CПРМатериалыE"
+    }
+  ]
+}

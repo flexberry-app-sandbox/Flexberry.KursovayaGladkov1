@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Kursovaya_Gladkov.model.SPRoborud</class>
+        <class>Kursovaya_Gladkov.model.SPRKlient</class>
+        <class>Kursovaya_Gladkov.model.CPRMaterialy</class>
+        <class>Kursovaya_Gladkov.model.Sostoyanie</class>
+        <class>Kursovaya_Gladkov.model.TCHzayavka</class>
+        <class>Kursovaya_Gladkov.model.DokZayavka</class>
+        <class>Kursovaya_Gladkov.model.DokCHertezh</class>
+        <class>Kursovaya_Gladkov.model.SPRSklad</class>
+        <class>Kursovaya_Gladkov.model.DokTexKarta</class>
+        <class>Kursovaya_Gladkov.model.FlexberryAdvLimit</class>
+        <class>Kursovaya_Gladkov.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Kursovaya_Gladkov.model.NewPlatformFlexberryServicesLock</class>
+        <class>Kursovaya_Gladkov.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

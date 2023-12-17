@@ -1,0 +1,45 @@
+﻿{
+  "name": "IISKursovaya_GladkovДокТехКарта",
+  "modelName": "i-i-s-kursovaya-gladkov-док-тех-карта",
+  "className": "ДокТехКарта",
+  "nameSpace": "IIS.Kursovaya_Gladkov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "докЧертеж",
+      "relatedTo": "i-i-s-kursovaya-gladkov-док-чертеж",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сПРоборуд",
+      "relatedTo": "i-i-s-kursovaya-gladkov-с-п-роборуд",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДокТехКартаE",
+      "modelName": "i-i-s-kursovaya-gladkov-док-тех-карта",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДокТехКартаL",
+      "modelName": "i-i-s-kursovaya-gladkov-док-тех-карта",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

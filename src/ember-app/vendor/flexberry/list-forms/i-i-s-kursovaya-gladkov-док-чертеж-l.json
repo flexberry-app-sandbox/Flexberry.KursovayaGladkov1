@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-док-чертеж-e",
+  "editForm": "i-i-s-kursovaya-gladkov-док-чертеж-e",
+  "external": false,
+  "caption": "Док чертеж",
+  "name": "IISKursovaya_GladkovДокЧертежL",
+  "className": "ДокЧертежL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-док-чертеж",
+      "modelProjection": "ДокЧертежL"
+    }
+  ]
+}

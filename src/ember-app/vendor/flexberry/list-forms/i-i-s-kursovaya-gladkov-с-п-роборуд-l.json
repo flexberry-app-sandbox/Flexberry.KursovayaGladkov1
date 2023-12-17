@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-gladkov-с-п-роборуд-e",
+  "editForm": "i-i-s-kursovaya-gladkov-с-п-роборуд-e",
+  "external": false,
+  "caption": "С п роборуд",
+  "name": "IISKursovaya_GladkovСПРоборудL",
+  "className": "СПРоборудL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-роборуд",
+      "modelProjection": "СПРоборудL"
+    }
+  ]
+}

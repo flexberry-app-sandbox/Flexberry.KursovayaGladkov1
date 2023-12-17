@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Док заявка",
+  "name": "IISKursovaya_GladkovДокЗаявкаE",
+  "className": "ДокЗаявкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-док-заявка",
+      "modelProjection": "ДокЗаявкаE"
+    }
+  ]
+}

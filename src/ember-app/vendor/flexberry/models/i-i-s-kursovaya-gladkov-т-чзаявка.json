@@ -1,0 +1,122 @@
+﻿{
+  "name": "IISKursovaya_GladkovТЧзаявка",
+  "modelName": "i-i-s-kursovaya-gladkov-т-чзаявка",
+  "className": "ТЧзаявка",
+  "nameSpace": "IIS.Kursovaya_Gladkov",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименДетали",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерДетали",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "цена",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "cПРМатериалы",
+      "relatedTo": "i-i-s-kursovaya-gladkov-c-п-р-материалы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "докЗаявка",
+      "relatedTo": "i-i-s-kursovaya-gladkov-док-заявка",
+      "inverse": "тЧзаявка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧзаявкаE",
+      "modelName": "i-i-s-kursovaya-gladkov-т-чзаявка",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "наименДетали",
+          "caption": "Наимен детали",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номерДетали",
+          "caption": "Номер детали",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "CПРМатериалы",
+          "belongsTo": [],
+          "hidden": true,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Материал",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Материал",
+          "name": "cПРМатериалы",
+          "relatedTo": "i-i-s-kursovaya-gladkov-c-п-р-материалы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

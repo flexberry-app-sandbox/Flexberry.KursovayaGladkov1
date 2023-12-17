@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "С п р клиент",
+  "name": "IISKursovaya_GladkovСПРКлиентE",
+  "className": "СПРКлиентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-р-клиент",
+      "modelProjection": "СПРКлиентE"
+    }
+  ]
+}

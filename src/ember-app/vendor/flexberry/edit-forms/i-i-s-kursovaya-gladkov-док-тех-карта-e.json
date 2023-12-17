@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Док тех карта",
+  "name": "IISKursovaya_GladkovДокТехКартаE",
+  "className": "ДокТехКартаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-док-тех-карта",
+      "modelProjection": "ДокТехКартаE"
+    }
+  ]
+}

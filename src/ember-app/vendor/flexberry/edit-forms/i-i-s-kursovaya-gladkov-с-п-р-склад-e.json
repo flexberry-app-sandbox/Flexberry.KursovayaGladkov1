@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "С п р склад",
+  "name": "IISKursovaya_GladkovСПРСкладE",
+  "className": "СПРСкладE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-gladkov-с-п-р-склад",
+      "modelProjection": "СПРСкладE"
+    }
+  ]
+}
